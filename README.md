@@ -1,4 +1,4 @@
-# School Ecosystem Influencer Discovery (EDXSO Assignment 3)
+# School Ecosystem Influencer Discovery
 
 ## Run locally
 ```
