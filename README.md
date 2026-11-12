@@ -5,8 +5,6 @@
 pip install -r requirements.txt
 streamlit run app.py
 ```
-Deploy: push to GitHub → share.streamlit.io → select `app.py` (free live URL).
-
 ## Data (compliance)
 No LinkedIn scraping, login bypass or CAPTCHA circumvention. Put real profiles in `data/profiles.csv`
 (schema: `data/profiles.template.csv`) from lawful sources only, e.g.:
@@ -25,4 +23,8 @@ Add a `data/SOURCES.md` listing where each batch came from.
 **Production path:** licensed profile data API or LinkedIn partner access, vector DB (pgvector), labelled feedback from outreach to learn weights, cross-encoder re-ranking.
 
 ## Demo script (5–10 min)
-1) show dataset and sources; 2) pick a reference; 3) Discover; 4) walk through scores/explanations; 5) paste-in a new reference; 6) discuss limits.
+1) show dataset and sources;
+2) pick a reference;
+3) Discover;
+4) walk through scores/explanations;
+5) paste-in a new reference; 6) discuss limits.
